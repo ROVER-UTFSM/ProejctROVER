@@ -1,10 +1,14 @@
 #include"vector2D.h++"
 
-vector2D::vector2D(){
-  float pos_x = 0;
-  float pos_y = 0;
-  float speed_x = 0;
-  float speed_y = 0;
-  float acc_x = 0;
-  float acc_y = 0;
+namespace rover{
+
+	vector2D::vector2D():
+		pos.r(0.),
+		pos.a(0.),
+		spd.r(0.),
+		spd.a(0.),
+		acc.r(0.),
+		acc.a(0.){}
+	}
+
 }

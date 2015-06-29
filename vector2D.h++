@@ -15,4 +15,4 @@ class vector2D{
     float speed_y;
     float acc_x;
     float acc_y;
-}
+};

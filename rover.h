@@ -1,15 +1,19 @@
 #include <iostream>
 #include <string>
 
+#include "chassis.h"
+#include "arduino.h"
+
 class rover{
 
-  public:
+public:
     std::string type;
+    
     void set_type(std::string);
+
     void test();
 
-
-  private:
-    
-
-}
+private:
+	chassis Chassis;
+	arduino Arduino;
+};

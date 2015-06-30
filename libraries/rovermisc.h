@@ -2,17 +2,17 @@
 #define __ROVERMISC_H_
 
 
-#ifdef __linux__
+#ifdef __linux__	// ############ LINUX ##############
 
 #include <time.h>
 
 namespace rover{
 
-int wait(unsigned int useconds);
+	int wait(unsigned int useconds);
 
 }
 
-#endif // __linux__
+#endif				// ########### LINUX ##############
 
 
 

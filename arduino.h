@@ -1,3 +1,6 @@
-class arduino{
 
-};
+namespace rover{
+
+	class arduino{};
+
+}
